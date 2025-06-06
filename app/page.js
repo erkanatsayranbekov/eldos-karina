@@ -115,6 +115,12 @@ export default function Home() {
         </i>
       </motion.div>
 
+      <motion.div whileInView={{ opacity: 1, y: 0 }} initial={{ opacity: 0, y: -100 }} exit={{ opacity: 0, y: -100 }} transition={{ duration: 1 }} className='pb-12'>
+        <h1 className='text-3xl font-extrabold'>Той иелері:</h1>
+        <i><p className='text-3xl'>Аман - Ақжібек</p></i>
+      </motion.div>
+
+
       <motion.div whileInView={{ opacity: 1, y: 0 }} initial={{ opacity: 0, y: 100 }}  transition={{ duration: 1 }} className='w-[80%] font-bold mx-auto text-center relative border-[#96825f] border-[1px] '>
       </motion.div>
 
