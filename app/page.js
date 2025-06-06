@@ -109,7 +109,7 @@ export default function Home() {
 
       <motion.div whileInView={{ opacity: 1, y: 0 }} initial={{ opacity: 0, y: 100 }} transition={{ duration: 1 }} className='w-[80%] font-bold mx-auto text-center relative mb-[170px] border-[#96825f] border-[1px] '>
         <i>
-          <p className={`text-xl mt-6 m-0 absolute top-0 right-10`}>Елдос пен Каринаның</p>
+          <p className={`text-xl mt-6 m-0 absolute top-0 right-20`}>Елдос пен Каринаның</p>
           <p className=' absolute top-16 text-lg font-light'>Отау құру тойына арналған салтанатты ақ дастарханымыздың қадірлі қонағы болуға шақырамыз!
           </p>
         </i>
