@@ -1,0 +1,28 @@
+{
+  "name": "wedding-invite",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@2gis/mapgl": "^1.45.2",
+    "@2gis/mapgl-clusterer": "^2.5.0",
+    "@pbe/react-yandex-maps": "^1.2.5",
+    "axios": "^1.6.8",
+    "framer-motion": "^11.0.20",
+    "next": "14.1.4",
+    "react": "^18",
+    "react-2gis": "^3.1.1",
+    "react-confetti": "^6.1.0",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0"
+  }
+}
